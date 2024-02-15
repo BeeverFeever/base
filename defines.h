@@ -24,8 +24,8 @@ typedef int32_t      i32;
 typedef int64_t      i64;
 typedef float        f32;
 typedef double       f64;
-typedef ptrdiff_t    size;
-typedef size_t       usize;
+typedef ptrdiff_t    Size;
+typedef size_t       uSize;
 
 #define sizeof(x) (size)sizeof(x)
 #define alignof(x) (size)_Alignof(x)
